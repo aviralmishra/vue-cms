@@ -1,0 +1,35 @@
+{
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "arrowFunctions": true,
+      "destructuring": true,
+      "classes": true,
+      "defaultParams": true,
+      "blockBindings": true,
+      "modules": true,
+      "objectLiteralComputedProperties": true,
+      "objectLiteralShorthandMethods": true,
+      "objectLiteralShorthandProperties": true,
+      "restParams": true,
+      "spread": true,
+      "templateStrings": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "vue/html-indent": [2, "error"],
+    "vue/max-attributes-per-line": [0]
+  }
+}

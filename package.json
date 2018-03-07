@@ -1,0 +1,62 @@
+{
+  "name": "vue-cms",
+  "version": "1.0.0",
+  "description": "Demo CMS built with vue.js, vuex, vuetify and vue-router",
+  "main": "./src/main.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --hot"
+  },
+  "keywords": [
+    "Vue.js",
+    "Webpack",
+    "Vuetify",
+    "VueRouter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviralmishra/vue-cms.git"
+  },
+  "author": "Aviral Mishra (aviral.mishra@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "material-design-icons": "^3.0.1",
+    "moment": "^2.21.0",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuetify": "^1.0.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.2",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.3.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.4",
+    "html-webpack-template": "^6.1.0",
+    "node-sass": "^4.7.2",
+    "open-browser-webpack-plugin": "0.0.5",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "template-html-loader": "^1.0.0",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^4.1.0",
+    "webpack-bundle-analyzer": "^2.11.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^3.1.0"
+  }
+}

@@ -1,0 +1,25 @@
+# ESLint
+.eslintcache
+
+# Test coverage
+coverage
+
+# Build and Distribution
+dist/*
+!dist/index.html
+
+# Node
+node_modules/
+.npm
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+.DSStore
